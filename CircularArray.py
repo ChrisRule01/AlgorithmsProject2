@@ -32,7 +32,7 @@ while n <= 100000000:
     shiftPositions = random.randint(1, 10)
     array = array[-shiftPositions:] + array[:-shiftPositions]
     
-    # Timer for the below while loop
+    # Timer for the above while loop
     starttime = timeit.default_timer()
     
     # Calling the binary search function
